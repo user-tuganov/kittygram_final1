@@ -32,6 +32,14 @@ jobs:
     defaults:
       run:
         working-directory: backend
+    env:
+      DJANGO_SECRET_KEY: dummy
+      DEBUG: 'True'
+      POSTGRES_DB: testdb
+      POSTGRES_USER: testuser
+      POSTGRES_PASSWORD: testpass
+      DB_HOST: localhost
+      DB_PORT: 5432
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
