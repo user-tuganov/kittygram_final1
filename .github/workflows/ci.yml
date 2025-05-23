@@ -114,4 +114,4 @@ jobs:
           message: |
             CI/CD успешно завершён!
             Репозиторий: ${{ github.repository }}
-            
+#
