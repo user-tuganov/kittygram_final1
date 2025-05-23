@@ -9,9 +9,9 @@ on:
       - main
 
 env:
-  BACKEND_IMAGE: zumassh/kittygram_backend
-  FRONTEND_IMAGE: zumassh/kittygram_frontend
-  GATEWAY_IMAGE: zumassh/kittygram_gateway
+  BACKEND_IMAGE: nikitatuganov/kittygram_backend
+  FRONTEND_IMAGE: nikitatuganov/kittygram_frontend
+  GATEWAY_IMAGE: nikitatuganov/kittygram_gateway
 
 jobs:
   check-backend:
